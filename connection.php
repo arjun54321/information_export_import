@@ -1,0 +1,15 @@
+<?php
+$host="localhost";
+$user="root";
+$pass="";
+$db="checkbox";
+$con=mysqli_connect($host,$user,$pass,$db);
+if($con)
+{
+	//echo"connected";
+}
+else
+{
+	die(mysqli_connect_error());
+}
+?>
